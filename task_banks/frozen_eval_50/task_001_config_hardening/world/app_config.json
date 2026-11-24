@@ -1,0 +1,10 @@
+{
+  "service_name": "cv-pulse-gateway",
+  "auth_required": false,
+  "rate_limit_rpm": 0,
+  "debug_mode": true,
+  "allowed_origins": [
+    "*"
+  ],
+  "backup_policy": "none"
+}

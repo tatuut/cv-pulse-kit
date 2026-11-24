@@ -1,0 +1,21 @@
+# VCSW Stage a General Core Factory Configuration
+zpd_min: 0.10
+zpd_max: 0.30
+oracle_min: 0.80
+regret_min: 0.50
+
+# Exo-Brevity & Resource Constraints
+t_max: 12
+b_ref: 800
+alpha_tokens: 0.15
+beta_steps: 0.15
+
+# SVP (Solvability Verification Pipeline)
+svp_oracle_trials: 3
+
+# Stage b SoftAdapter parameters
+soft_max_token_budget: 1500
+soft_decay_gamma: 0.90
+soft_prune_threshold: 0.30
+soft_reinforce_delta: 0.45
+soft_score_cap: 5.0

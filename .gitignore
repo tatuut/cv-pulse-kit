@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+site_worker.js
+colab_vcsw_worker.py
+trajectory_ledger/
+*.db
+*.bak
